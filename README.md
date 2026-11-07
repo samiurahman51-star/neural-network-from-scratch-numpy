@@ -16,8 +16,8 @@ The network has one hidden layer of 512 neurons. I trained it for 10,000 epochs 
 
 | Dataset | Accuracy |
 |---|---|
-| Training | 88.3% |
-| Validation (new spiral data) | 79.7% |
+| Training | 86.3% |
+| Validation (new spiral data) | 80.7% |
 
 I also checked that the combined Softmax + cross-entropy gradient matches the separate Softmax and loss gradients. The combined version is about 13 times faster in my timing test.
 
